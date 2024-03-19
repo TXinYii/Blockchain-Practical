@@ -6,6 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -52,11 +65,11 @@
 	},
 	"sources": {
 		"lab5/exercise1 (child and parent)/parent.sol": {
-			"keccak256": "0x8289569514a4744a3699c1e1a2b83e7000ac5f03386c07a4b9ddac8a5ee8aa83",
+			"keccak256": "0x6aa0de200fa729db1346fc7937c48fa30ae86d24647d85d57a92fa4ffba439d6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e5e40ffebfb4f500c4f523d922d3ef02b2bdc6e63701e2e1479e9b85547b414f",
-				"dweb:/ipfs/QmNtum3u3mDN9z378Tq8f3U5MDWWSTLR67RXUh2WziUFxr"
+				"bzz-raw://c64a514b10d4c346a2492854bc44d4c04e1468b83cdd72a99612c7b98d6a8c73",
+				"dweb:/ipfs/QmXAeQqSCsbtWr2U3vwEdq9vapirWSpiXHMzXQbquwsRGR"
 			]
 		}
 	},
