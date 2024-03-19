@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_A",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_B",
+						"type": "uint256"
+					}
+				],
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lab5/exercise1 (child and parent)/child.sol": "Child"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lab5/exercise1 (child and parent)/child.sol": {
+			"keccak256": "0x3c1e419829242c8bf00afaa5053664771c5ed94a4db9b03c77272f9bedd7cbd5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d5f6cf0c426d11ffa4dd1c809ff9532f3c36b210938e4f751980318a658e3dc",
+				"dweb:/ipfs/QmQitGWHseFkBxSjUftPZxxjuc5j2veW4sg1oMTpSgeBDq"
+			]
+		},
+		"lab5/exercise1 (child and parent)/parent.sol": {
+			"keccak256": "0x8289569514a4744a3699c1e1a2b83e7000ac5f03386c07a4b9ddac8a5ee8aa83",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e5e40ffebfb4f500c4f523d922d3ef02b2bdc6e63701e2e1479e9b85547b414f",
+				"dweb:/ipfs/QmNtum3u3mDN9z378Tq8f3U5MDWWSTLR67RXUh2WziUFxr"
+			]
+		}
+	},
+	"version": 1
+}
